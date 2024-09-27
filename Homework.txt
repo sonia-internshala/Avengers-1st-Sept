@@ -1,0 +1,4 @@
+1.fix figcaption in terms of text color button font family font size
+2.Post HD Images for each article .
+3.Change content for each article.
+4.Build gallery Page from scratch.

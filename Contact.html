@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        footer{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height:300px;
+            gap:10px;
+            background-color:gray;
+        }
+        footer .box{
+            background-color: aqua;
+        }
+    footer article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left:30px;
+        padding-right: 30px;
+    }
+    footer article h1,p{
+        color:white;
+        font-family: cursive;
+    }
+    footer article h1{
+        font-size: xx-large;
+    }
+    footer article li{
+        color:white;
+        font-family: cursive;
+        font-size: x-large;
+    }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main></main>
+    <footer>
+        <article class="box">
+            <div style="background-color: brown;">
+                <h1>Avengers</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt at provident accusamus aspernatur veritatis non, repellat voluptas tempora voluptatum dolores dolore enim nobis a sapiente nisi necessitatibus nulla. Accusamus.</p>
+            </div>
+           <!-- sum dolor sit amet consectetur adipisicing elit. Dolor incidunt at provident accusamus aspernatur veritatis non, repellat voluptas tempora voluptatum dolores dolore enim nobis a sapiente nisi necessitatibus nulla. Accusamus.</p> -->
+        </article>
+        <article class="box">
+            <div style="background-color: brown;display: flex;justify-content: center; flex-direction: column;align-items: center;">
+            <h1>Links</h1>
+            <ul type="none" style="display: flex; background-color: blue; justify-content:flex-start;align-items: center;flex-direction: column;">
+            <p>Item1</p>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li></ul>
+            </div>
+        </article>
+        <article class="box">
+            <h1>Services</h1>
+            <ul type="none">
+                <li>DSA</li>
+                <li>Web development</li>
+                <li>OS</li>
+                <li>DBMS</li>
+                <li>resume</li>
+            </ul>
+        </article>
+        <article class="box">
+            <h1>Our Newsletters</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio recusandae architecto et ad, non perferendis id hic, quibusdam consequuntur accusamus vero optio sint repellendus accusantium adipisci doloremque officiis dolorem facere.</p>
+        </article>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.container{
+    background-color: black;
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: 100px 580px;
+}
+.container .box{
+    position: relative;
+}
+.container .box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.container .box figure img{
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.container .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box1 h1{
+    color:red;
+}

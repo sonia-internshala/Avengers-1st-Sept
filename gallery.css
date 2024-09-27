@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    gap:8px;
+    grid-template-columns: repeat(3,1fr);
+    height:1200px;
+    grid-template-rows: 600px 600px;
+}
+.container .box{
+    background-color: blueviolet;
+    position: relative;
+    overflow: hidden;
+
+}
+.container article figure img{
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition:0.5s ease-in-out;
+    z-index:2;
+}
+.container article figcaption{
+    position: absolute;
+    top:20vh;
+    left:7vw;
+    z-index:1;
+}
+.container .box:hover figure img{
+    transform: translateY(-100%);
+}
